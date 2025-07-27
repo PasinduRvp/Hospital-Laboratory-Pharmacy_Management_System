@@ -32,7 +32,6 @@ import AddChannelingAppointment from '../components/AddChannelingAppointment'
 import OnlineConsultationPage from '../pages/OnlineConsultationPage'
 import MarkAllocationStudent from '../pages/NursingSchoolMarks'
 import Profile from '../pages/Profile'
-import PatientRecords from '../pages/PatientRecords'
 
 
 
@@ -180,14 +179,11 @@ const router = createBrowserRouter([
             {
                 path :"student-marks",
                 element : <MarkAllocationStudent/>
-            },
-            {
-                path : "patient-records", 
-                element : <PatientRecords/>
             }
-
         ]
     }
 ])
+
+
 
 export default router
